@@ -16,7 +16,7 @@ jobs:
       artifact: drop
 - deployment: VMDeploy
   displayName: web
-  pool: 'Ubuntu-latest'
+  pool: 'ubuntu-latest'
   environment:
     name: ENV-PPLN-TL-Java-13
     resourceType: VirtualMachine
